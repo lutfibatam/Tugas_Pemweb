@@ -1,0 +1,93 @@
+body{
+	font-family: sans-serif;
+    position: relative;
+    font-size: 18pt;
+	background: url(./../images/clinic.jpg);
+    background-size: cover; 
+}
+
+h1{
+	text-align: center;
+	font-weight: 300;
+}
+h2{
+    text-align:center;
+     
+}
+
+.tulisan_login{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.kotak_login{
+	width: 350px;
+	background: white;
+	/*meletakkan form ke tengah*/
+	margin: 80px auto;
+    font-weight: 100;
+	padding: 30px 20px;
+    font-size: 14pt;
+}
+
+label{
+	font-size: 13pt;
+}
+
+input[name="username"] {
+
+    border: 2px solid #000000;
+    padding: 10px;  
+    width: 100%;
+    
+  }
+
+  input[name="password"] { 
+    
+    border: 2px solid #000000; 
+    padding: 10px;
+    width: 100%;
+   
+  }
+
+.form_login{
+	border-radius: 10px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1; /* Pastikan form login berada di atas latar belakang */
+    opacity: 0.8; 
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 9pt;
+	margin-bottom: 20px;
+}
+
+.tombol_login{
+	background: #1eb2df; 
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+
+.lupa_password {
+    text-decoration: underline; /* Memberikan dekorasi berupa garis bawah */
+    color: #000000; /* Warna tautan, bisa disesuaikan */
+    display: block; /* Membuat tautan menempati satu baris penuh */
+    margin-top: 0px; /* Atur jarak dari elemen di atasnya */ 
+    font-size: 10px;
+    transition: color 0.1s; 
+  }
+
+  .lupa_password:active {    
+    color: #22b4e0; /* Warna tautan saat diklik, ganti sesuai keinginan Anda */
+  }
+
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}
