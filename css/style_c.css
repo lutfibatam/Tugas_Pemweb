@@ -2,7 +2,7 @@ body{
 	font-family: sans-serif;
     position: relative;
     font-size: 18pt;
-	background: url(./../images/clinic.jpg);
+	  background: url(./../images/clinic.jpg);
     background-size: cover; 
 }
 
@@ -13,6 +13,11 @@ h1{
 h2{
     text-align:center;    
      
+}
+
+::placeholder{
+  color: #525050;  
+  font-size: 12px;
 }
 
 .tulisan_login{
